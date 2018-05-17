@@ -1,0 +1,11 @@
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.csprojAssemblyReference.cache
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.Form1.resources
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.Signup.resources
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.Properties.Resources.resources
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.csproj.GenerateResource.cache
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.csproj.CoreCompileInputs.cache
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\bin\Debug\bugtracker.exe.config
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\bin\Debug\bugtracker.exe
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\bin\Debug\bugtracker.pdb
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.exe
+C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.pdb

@@ -105,6 +105,8 @@ namespace bugtracker
             login_form.Show();
             this.Hide();
         }
+
+        
     }
 }
 

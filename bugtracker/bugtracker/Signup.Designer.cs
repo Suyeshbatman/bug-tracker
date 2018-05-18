@@ -157,7 +157,8 @@
             this.cmb_type.FormattingEnabled = true;
             this.cmb_type.Items.AddRange(new object[] {
             "Admin",
-            "User"});
+            "Developer",
+            "Tester"});
             this.cmb_type.Location = new System.Drawing.Point(313, 218);
             this.cmb_type.Name = "cmb_type";
             this.cmb_type.Size = new System.Drawing.Size(120, 21);

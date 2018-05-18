@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICSharpCode.TextEditor, Version=3.2.0.5777, Culture=neutral, PublicKeyToken=4d61825e8dd49f1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,9 +49,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin_Panel.cs" />
+    <Compile Include="Admin_M_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_M_Panel.Designer.cs">
+      <DependentUpon>Admin_M_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Panel.Designer.cs">
+      <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="check_code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="check_code.Designer.cs">
+      <DependentUpon>check_code.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connectiondb.cs" />
-    <Compile Include="Developer_Panel.cs" />
+    <Compile Include="delete_project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_project.Designer.cs">
+      <DependentUpon>delete_project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Developer_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Developer_Panel.Designer.cs">
+      <DependentUpon>Developer_Panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,7 +94,57 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tester_Panel.cs" />
+    <Compile Include="Tester_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tester_Panel.Designer.cs">
+      <DependentUpon>Tester_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testok.Designer.cs">
+      <DependentUpon>testok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="to_developer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="to_developer.Designer.cs">
+      <DependentUpon>to_developer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="to_developer_again.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="to_developer_again.Designer.cs">
+      <DependentUpon>to_developer_again.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update ststus for Tester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update ststus for Tester.Designer.cs">
+      <DependentUpon>Update ststus for Tester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatestatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatestatus.Designer.cs">
+      <DependentUpon>Updatestatus.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_M_Panel.resx">
+      <DependentUpon>Admin_M_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Panel.resx">
+      <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="check_code.resx">
+      <DependentUpon>check_code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_project.resx">
+      <DependentUpon>delete_project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Developer_Panel.resx">
+      <DependentUpon>Developer_Panel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login1.resx">
       <DependentUpon>Login1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +160,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tester_Panel.resx">
+      <DependentUpon>Tester_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testok.resx">
+      <DependentUpon>testok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="to_developer.resx">
+      <DependentUpon>to_developer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="to_developer_again.resx">
+      <DependentUpon>to_developer_again.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update ststus for Tester.resx">
+      <DependentUpon>Update ststus for Tester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatestatus.resx">
+      <DependentUpon>Updatestatus.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

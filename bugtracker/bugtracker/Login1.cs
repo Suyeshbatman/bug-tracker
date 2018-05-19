@@ -59,7 +59,7 @@ namespace bugtracker
                             type = typ.Rows[0][0].ToString();
                             if (type == "Developer")
                             {
-                                username = txt_uname.Text;
+                                username = txt_uname.Text.Trim() ;
                                 Developer_Panel panel = new Developer_Panel();
                                 panel.Show();
                                 this.Hide();

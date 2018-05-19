@@ -10,7 +10,7 @@ namespace bugtracker
 {
     class Connectiondb
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=NISHA\SQLEXPRESS;Initial Catalog=bugtracker;Integrated Security=True");
+        SqlConnection cn = new SqlConnection(@"Data Source=LENOVO-PC;Initial Catalog=bugtracker;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         SqlDataAdapter da = new SqlDataAdapter();
         DataTable dt = new DataTable();

@@ -52,8 +52,12 @@ namespace bugtracker
                 MessageBox.Show("Password cannot be empty!!.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txt_pw.Focus();
             }
-           
-           
+            else if (String.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Usertype cannot be empty!!.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cmb_type.Focus();
+            }
+
             else
             {
                 string temp;
@@ -92,10 +96,10 @@ namespace bugtracker
         private void Registration_Load(object sender, EventArgs e)
         {
             string query;
-            query = "select type from  Signupdata ";
+            query = "select Usertype from  Signupdata ";
             DataTable dt = conn.retrieve(query);
             cmb_type.DataSource = dt;
-            cmb_type.DisplayMember = "type";
+            cmb_type.DisplayMember = "Usertype";
 
         }
 

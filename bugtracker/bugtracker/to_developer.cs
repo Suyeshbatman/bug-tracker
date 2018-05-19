@@ -37,7 +37,7 @@ namespace bugtracker
                 }
                 else
                 {
-                    Connectiondb conn = new Connectiondb();
+                    
                     string insquery = "insert into tbl_developer values('" + Tester_Panel.project_Id + "','" + Tester_Panel.project_name + "','" + Tester_Panel.project_date + "','" + Tester_Panel.project_complete + "','" + txtcode.Text + "','" + txt_lineno.Text + "','" + txt_status1.Text + "')";
                     conn.manipulate(insquery);
                     MessageBox.Show("Successfully sent to Developer!!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);

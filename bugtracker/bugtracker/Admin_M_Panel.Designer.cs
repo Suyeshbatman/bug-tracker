@@ -36,17 +36,17 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.date = new System.Windows.Forms.Label();
             this.time = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.completed = new System.Windows.Forms.DataGridView();
             this.lbl_compproj = new System.Windows.Forms.Label();
             this.btn_refresh = new System.Windows.Forms.Button();
             this.btn_refresh1 = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.lbl_pendproj = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.pending = new System.Windows.Forms.DataGridView();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.completed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pending)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -109,13 +109,14 @@
             this.time.TabIndex = 2;
             this.time.Text = "Time";
             // 
-            // dataGridView1
+            // completed
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(17, 111);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(773, 207);
-            this.dataGridView1.TabIndex = 3;
+            this.completed.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.completed.Location = new System.Drawing.Point(17, 111);
+            this.completed.Name = "completed";
+            this.completed.Size = new System.Drawing.Size(773, 207);
+            this.completed.TabIndex = 3;
+            this.completed.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.completed_CellContentClick);
             // 
             // lbl_compproj
             // 
@@ -165,13 +166,13 @@
             this.lbl_pendproj.TabIndex = 8;
             this.lbl_pendproj.Text = "Pending Projects";
             // 
-            // dataGridView2
+            // pending
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(15, 410);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(775, 129);
-            this.dataGridView2.TabIndex = 9;
+            this.pending.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.pending.Location = new System.Drawing.Point(15, 410);
+            this.pending.Name = "pending";
+            this.pending.Size = new System.Drawing.Size(775, 129);
+            this.pending.TabIndex = 9;
             // 
             // timer1
             // 
@@ -182,13 +183,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 627);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.pending);
             this.Controls.Add(this.lbl_pendproj);
             this.Controls.Add(this.btn_delete);
             this.Controls.Add(this.btn_refresh1);
             this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.lbl_compproj);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.completed);
             this.Controls.Add(this.time);
             this.Controls.Add(this.date);
             this.Controls.Add(this.menuStrip1);
@@ -198,8 +199,8 @@
             this.Load += new System.EventHandler(this.Admin_M_Panel_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.completed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pending)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,13 +215,13 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label date;
         private System.Windows.Forms.Label time;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView completed;
         private System.Windows.Forms.Label lbl_compproj;
         private System.Windows.Forms.Button btn_refresh;
         private System.Windows.Forms.Button btn_refresh1;
         private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.Label lbl_pendproj;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView pending;
         private System.Windows.Forms.Timer timer1;
     }
 }

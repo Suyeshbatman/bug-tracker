@@ -88,6 +88,11 @@ namespace bugtracker
             }
         }
 
+        private void completed_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void btn_refresh_Click(object sender, EventArgs e)
         {
             string query = "select * from tbl_project_complete";

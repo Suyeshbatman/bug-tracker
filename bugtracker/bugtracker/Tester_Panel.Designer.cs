@@ -44,6 +44,7 @@
             this.time1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.devdgv = new System.Windows.Forms.DataGridView();
+            this.lbluname = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.testdgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.devdgv)).BeginInit();
             this.SuspendLayout();
@@ -179,12 +180,22 @@
             this.devdgv.Size = new System.Drawing.Size(673, 155);
             this.devdgv.TabIndex = 14;
             this.devdgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devdgv_CellContentClick);
+            this.devdgv.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devdgv_CellContentDoubleClick);
+            // 
+            // lbluname
+            // 
+            this.lbluname.AutoSize = true;
+            this.lbluname.Location = new System.Drawing.Point(293, 11);
+            this.lbluname.Name = "lbluname";
+            this.lbluname.Size = new System.Drawing.Size(0, 13);
+            this.lbluname.TabIndex = 15;
             // 
             // Tester_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbluname);
             this.Controls.Add(this.devdgv);
             this.Controls.Add(this.time1);
             this.Controls.Add(this.date2);
@@ -226,5 +237,6 @@
         private System.Windows.Forms.Label time1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.DataGridView devdgv;
+        private System.Windows.Forms.Label lbluname;
     }
 }

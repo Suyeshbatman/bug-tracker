@@ -118,11 +118,11 @@
     <Compile Include="to_developer_again.Designer.cs">
       <DependentUpon>to_developer_again.cs</DependentUpon>
     </Compile>
-    <Compile Include="Update ststus for Tester.cs">
+    <Compile Include="Update_status_Tester.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Update ststus for Tester.Designer.cs">
-      <DependentUpon>Update ststus for Tester.cs</DependentUpon>
+    <Compile Include="Update_status_Tester.Designer.cs">
+      <DependentUpon>Update_status_Tester.cs</DependentUpon>
     </Compile>
     <Compile Include="Updatestatus.cs">
       <SubType>Form</SubType>
@@ -172,8 +172,8 @@
     <EmbeddedResource Include="to_developer_again.resx">
       <DependentUpon>to_developer_again.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Update ststus for Tester.resx">
-      <DependentUpon>Update ststus for Tester.cs</DependentUpon>
+    <EmbeddedResource Include="Update_status_Tester.resx">
+      <DependentUpon>Update_status_Tester.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Updatestatus.resx">
       <DependentUpon>Updatestatus.cs</DependentUpon>

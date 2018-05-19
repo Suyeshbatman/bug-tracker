@@ -1,4 +1,6 @@
-﻿namespace bugtracker
+﻿using System;
+
+namespace bugtracker
 {
     partial class Developer_Panel
     {
@@ -39,6 +41,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.time = new System.Windows.Forms.Label();
             this.date1 = new System.Windows.Forms.Label();
+            this.lbluname = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.devdgv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,6 +110,7 @@
             this.devdgv.Size = new System.Drawing.Size(776, 399);
             this.devdgv.TabIndex = 6;
             this.devdgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.devdgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devdgv_CellDoubleClick);
             // 
             // timer1
             // 
@@ -130,11 +134,22 @@
             this.date1.TabIndex = 8;
             this.date1.Text = "Date";
             // 
+            // lbluname
+            // 
+            this.lbluname.AutoSize = true;
+            this.lbluname.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbluname.Location = new System.Drawing.Point(278, 23);
+            this.lbluname.Name = "lbluname";
+            this.lbluname.Size = new System.Drawing.Size(0, 24);
+            this.lbluname.TabIndex = 9;
+            this.lbluname.Click += new System.EventHandler(this.lbluname_Click);
+            // 
             // Developer_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 545);
+            this.Controls.Add(this.lbluname);
             this.Controls.Add(this.date1);
             this.Controls.Add(this.time);
             this.Controls.Add(this.devdgv);
@@ -153,6 +168,11 @@
 
         }
 
+        private void lbluname_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
         private System.Windows.Forms.Button btn_logout;
@@ -165,5 +185,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label time;
         private System.Windows.Forms.Label date1;
+        private System.Windows.Forms.Label lbluname;
     }
 }

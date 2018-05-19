@@ -101,6 +101,14 @@ namespace bugtracker
             timer1.Start();
         }
 
+        private void devdgv_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            val = devdgv.SelectedRows[0].Cells[0].Value + string.Empty;
+            string userId = devdgv.SelectedRows[0].Cells[2].Value + string.Empty;
+            Update_status__Tester up = new Update_status__Tester();
+            up.Show();
+        }
+
         private void Tester_Panel_Load(object sender, EventArgs e)
         {
             date2.Text = DateTime.Now.ToLongDateString();

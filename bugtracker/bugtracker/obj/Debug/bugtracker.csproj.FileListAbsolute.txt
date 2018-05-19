@@ -9,3 +9,26 @@ C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\bin
 C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\bin\Debug\bugtracker.pdb
 C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.exe
 C:\Users\nischal\documents\visual studio 2017\Projects\bugtracker\bugtracker\obj\Debug\bugtracker.pdb
+F:\bugtracker\bugtracker\bin\Debug\bugtracker.exe.config
+F:\bugtracker\bugtracker\bin\Debug\bugtracker.exe
+F:\bugtracker\bugtracker\bin\Debug\bugtracker.pdb
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.csprojAssemblyReference.cache
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Admin_M_Panel.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Admin_Panel.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.check_code.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.delete_project.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Developer_Panel.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Form1.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Signup.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Properties.Resources.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Tester_Panel.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.testok.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.to_developer.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.to_developer_again.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Update_status__Tester.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.Updatestatus.resources
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.csproj.GenerateResource.cache
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.csproj.CoreCompileInputs.cache
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.csproj.CopyComplete
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.exe
+F:\bugtracker\bugtracker\obj\Debug\bugtracker.pdb

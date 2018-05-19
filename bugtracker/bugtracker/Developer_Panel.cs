@@ -100,6 +100,15 @@ namespace bugtracker
             }
         }
 
+        private void devdgv_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            val = devdgv.SelectedRows[0].Cells[1].Value + string.Empty;
+            string userId = devdgv.SelectedRows[0].Cells[2].Value + string.Empty;
+            error_line = devdgv.SelectedRows[0].Cells[1].Value + string.Empty;
+            Updatestatus up = new Updatestatus();
+            up.Show();
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 

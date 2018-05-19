@@ -31,6 +31,7 @@
             this.btn_yes = new System.Windows.Forms.Button();
             this.btn_no = new System.Windows.Forms.Button();
             this.lbl_doyou = new System.Windows.Forms.Label();
+            this.lblpro = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_yes
@@ -62,11 +63,20 @@
             this.lbl_doyou.TabIndex = 2;
             this.lbl_doyou.Text = "Do you want to delete Project?????";
             // 
+            // lblpro
+            // 
+            this.lblpro.AutoSize = true;
+            this.lblpro.Location = new System.Drawing.Point(205, 54);
+            this.lblpro.Name = "lblpro";
+            this.lblpro.Size = new System.Drawing.Size(0, 13);
+            this.lblpro.TabIndex = 3;
+            // 
             // delete_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 212);
+            this.Controls.Add(this.lblpro);
             this.Controls.Add(this.lbl_doyou);
             this.Controls.Add(this.btn_no);
             this.Controls.Add(this.btn_yes);
@@ -83,5 +93,6 @@
         private System.Windows.Forms.Button btn_yes;
         private System.Windows.Forms.Button btn_no;
         private System.Windows.Forms.Label lbl_doyou;
+        private System.Windows.Forms.Label lblpro;
     }
 }

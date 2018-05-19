@@ -47,7 +47,6 @@ namespace bugtracker
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
-            
             // 
             // txt_uname
             // 
@@ -74,7 +73,7 @@ namespace bugtracker
             // 
             // Login
             // 
-            this.Login.Location = new System.Drawing.Point(36, 135);
+            this.Login.Location = new System.Drawing.Point(36, 145);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(100, 45);
             this.Login.TabIndex = 7;

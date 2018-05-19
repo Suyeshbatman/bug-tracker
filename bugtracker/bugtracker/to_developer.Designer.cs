@@ -39,7 +39,7 @@
             // txtcode
             // 
             this.txtcode.IsReadOnly = false;
-            this.txtcode.Location = new System.Drawing.Point(12, 12);
+            this.txtcode.Location = new System.Drawing.Point(3, 1);
             this.txtcode.Name = "txtcode";
             this.txtcode.Size = new System.Drawing.Size(776, 260);
             this.txtcode.TabIndex = 20;

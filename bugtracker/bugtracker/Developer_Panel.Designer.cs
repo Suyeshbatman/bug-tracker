@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace bugtracker
+﻿namespace bugtracker
 {
     partial class Developer_Panel
     {
@@ -31,134 +29,135 @@ namespace bugtracker
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btn_logout = new System.Windows.Forms.Button();
-            this.btn_totester = new System.Windows.Forms.Button();
-            this.btn_refresh = new System.Windows.Forms.Button();
-            this.lbl_search = new System.Windows.Forms.Label();
-            this.txt_search = new System.Windows.Forms.TextBox();
-            this.btn_checkcode = new System.Windows.Forms.Button();
+            this.date = new System.Windows.Forms.Label();
+            this.time = new System.Windows.Forms.Label();
+            this.Search = new System.Windows.Forms.Label();
+            this.txtsearch = new System.Windows.Forms.TextBox();
+            this.btnrefresh = new System.Windows.Forms.Button();
+            this.btncheckcode = new System.Windows.Forms.Button();
+            this.btnlogout = new System.Windows.Forms.Button();
+            this.btnsendtest = new System.Windows.Forms.Button();
             this.devdgv = new System.Windows.Forms.DataGridView();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.time = new System.Windows.Forms.Label();
-            this.date1 = new System.Windows.Forms.Label();
-            this.lbluname = new System.Windows.Forms.Label();
+            this.lblUname = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.devdgv)).BeginInit();
             this.SuspendLayout();
             // 
-            // btn_logout
+            // date
             // 
-            this.btn_logout.Location = new System.Drawing.Point(723, 56);
-            this.btn_logout.Name = "btn_logout";
-            this.btn_logout.Size = new System.Drawing.Size(73, 31);
-            this.btn_logout.TabIndex = 0;
-            this.btn_logout.Text = "Logout";
-            this.btn_logout.UseVisualStyleBackColor = true;
-            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
+            this.date.AutoSize = true;
+            this.date.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date.Location = new System.Drawing.Point(544, 25);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(32, 15);
+            this.date.TabIndex = 30;
+            this.date.Text = "Date";
             // 
-            // btn_totester
+            // time
             // 
-            this.btn_totester.Location = new System.Drawing.Point(702, 98);
-            this.btn_totester.Name = "btn_totester";
-            this.btn_totester.Size = new System.Drawing.Size(93, 30);
-            this.btn_totester.TabIndex = 1;
-            this.btn_totester.Text = "to Tester";
-            this.btn_totester.UseVisualStyleBackColor = true;
-            this.btn_totester.Click += new System.EventHandler(this.btn_totester_Click);
+            this.time.AutoSize = true;
+            this.time.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.time.Location = new System.Drawing.Point(661, 25);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(33, 15);
+            this.time.TabIndex = 31;
+            this.time.Text = "Time";
             // 
-            // btn_refresh
+            // Search
             // 
-            this.btn_refresh.Location = new System.Drawing.Point(340, 106);
-            this.btn_refresh.Name = "btn_refresh";
-            this.btn_refresh.Size = new System.Drawing.Size(103, 21);
-            this.btn_refresh.TabIndex = 2;
-            this.btn_refresh.Text = "Refresh";
-            this.btn_refresh.UseVisualStyleBackColor = true;
-            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
+            this.Search.AutoSize = true;
+            this.Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search.Location = new System.Drawing.Point(12, 75);
+            this.Search.Name = "Search";
+            this.Search.Size = new System.Drawing.Size(57, 16);
+            this.Search.TabIndex = 32;
+            this.Search.Text = "Search";
             // 
-            // lbl_search
+            // txtsearch
             // 
-            this.lbl_search.AutoSize = true;
-            this.lbl_search.Location = new System.Drawing.Point(12, 106);
-            this.lbl_search.Name = "lbl_search";
-            this.lbl_search.Size = new System.Drawing.Size(41, 13);
-            this.lbl_search.TabIndex = 3;
-            this.lbl_search.Text = "Search";
+            this.txtsearch.Location = new System.Drawing.Point(75, 71);
+            this.txtsearch.Name = "txtsearch";
+            this.txtsearch.Size = new System.Drawing.Size(193, 20);
+            this.txtsearch.TabIndex = 33;
+            this.txtsearch.TextChanged += new System.EventHandler(this.txtsearch_TextChanged);
             // 
-            // txt_search
+            // btnrefresh
             // 
-            this.txt_search.Location = new System.Drawing.Point(80, 99);
-            this.txt_search.Name = "txt_search";
-            this.txt_search.Size = new System.Drawing.Size(156, 20);
-            this.txt_search.TabIndex = 4;
-            this.txt_search.TextChanged += new System.EventHandler(this.txt_search_TextChanged);
+            this.btnrefresh.Location = new System.Drawing.Point(321, 68);
+            this.btnrefresh.Name = "btnrefresh";
+            this.btnrefresh.Size = new System.Drawing.Size(75, 23);
+            this.btnrefresh.TabIndex = 34;
+            this.btnrefresh.Text = "Refresh";
+            this.btnrefresh.UseVisualStyleBackColor = true;
+            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
             // 
-            // btn_checkcode
+            // btncheckcode
             // 
-            this.btn_checkcode.Location = new System.Drawing.Point(538, 107);
-            this.btn_checkcode.Name = "btn_checkcode";
-            this.btn_checkcode.Size = new System.Drawing.Size(108, 20);
-            this.btn_checkcode.TabIndex = 5;
-            this.btn_checkcode.Text = "Check Code";
-            this.btn_checkcode.UseVisualStyleBackColor = true;
-            this.btn_checkcode.Click += new System.EventHandler(this.btn_checkcode_Click);
+            this.btncheckcode.Location = new System.Drawing.Point(510, 68);
+            this.btncheckcode.Name = "btncheckcode";
+            this.btncheckcode.Size = new System.Drawing.Size(75, 23);
+            this.btncheckcode.TabIndex = 35;
+            this.btncheckcode.Text = "Check Code";
+            this.btncheckcode.UseVisualStyleBackColor = true;
+            this.btncheckcode.Click += new System.EventHandler(this.btncheckcode_Click);
+            // 
+            // btnlogout
+            // 
+            this.btnlogout.Location = new System.Drawing.Point(12, 21);
+            this.btnlogout.Name = "btnlogout";
+            this.btnlogout.Size = new System.Drawing.Size(75, 23);
+            this.btnlogout.TabIndex = 37;
+            this.btnlogout.Text = "Logout";
+            this.btnlogout.UseVisualStyleBackColor = true;
+            this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
+            // 
+            // btnsendtest
+            // 
+            this.btnsendtest.Location = new System.Drawing.Point(664, 69);
+            this.btnsendtest.Name = "btnsendtest";
+            this.btnsendtest.Size = new System.Drawing.Size(75, 23);
+            this.btnsendtest.TabIndex = 38;
+            this.btnsendtest.Text = "To tester";
+            this.btnsendtest.UseVisualStyleBackColor = true;
+            this.btnsendtest.Click += new System.EventHandler(this.btnsendtest_Click);
             // 
             // devdgv
             // 
             this.devdgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.devdgv.Location = new System.Drawing.Point(12, 134);
+            this.devdgv.Location = new System.Drawing.Point(15, 108);
             this.devdgv.Name = "devdgv";
-            this.devdgv.Size = new System.Drawing.Size(776, 399);
-            this.devdgv.TabIndex = 6;
-            this.devdgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            this.devdgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devdgv_CellDoubleClick);
+            this.devdgv.Size = new System.Drawing.Size(755, 330);
+            this.devdgv.TabIndex = 39;
+            this.devdgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devdgv_CellContentClick);
+            this.devdgv.DoubleClick += new System.EventHandler(this.devdgv_DoubleClick);
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // time
+            // lblUname
             // 
-            this.time.AutoSize = true;
-            this.time.Location = new System.Drawing.Point(663, 6);
-            this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(30, 13);
-            this.time.TabIndex = 7;
-            this.time.Text = "Time";
-            // 
-            // date1
-            // 
-            this.date1.AutoSize = true;
-            this.date1.Location = new System.Drawing.Point(465, 9);
-            this.date1.Name = "date1";
-            this.date1.Size = new System.Drawing.Size(30, 13);
-            this.date1.TabIndex = 8;
-            this.date1.Text = "Date";
-            // 
-            // lbluname
-            // 
-            this.lbluname.AutoSize = true;
-            this.lbluname.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbluname.Location = new System.Drawing.Point(278, 23);
-            this.lbluname.Name = "lbluname";
-            this.lbluname.Size = new System.Drawing.Size(0, 24);
-            this.lbluname.TabIndex = 9;
-            this.lbluname.Click += new System.EventHandler(this.lbluname_Click);
+            this.lblUname.AutoSize = true;
+            this.lblUname.Location = new System.Drawing.Point(181, 22);
+            this.lblUname.Name = "lblUname";
+            this.lblUname.Size = new System.Drawing.Size(0, 13);
+            this.lblUname.TabIndex = 40;
             // 
             // Developer_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 545);
-            this.Controls.Add(this.lbluname);
-            this.Controls.Add(this.date1);
-            this.Controls.Add(this.time);
+            this.ClientSize = new System.Drawing.Size(800, 463);
+            this.Controls.Add(this.lblUname);
             this.Controls.Add(this.devdgv);
-            this.Controls.Add(this.btn_checkcode);
-            this.Controls.Add(this.txt_search);
-            this.Controls.Add(this.lbl_search);
-            this.Controls.Add(this.btn_refresh);
-            this.Controls.Add(this.btn_totester);
-            this.Controls.Add(this.btn_logout);
+            this.Controls.Add(this.btnsendtest);
+            this.Controls.Add(this.btnlogout);
+            this.Controls.Add(this.btncheckcode);
+            this.Controls.Add(this.btnrefresh);
+            this.Controls.Add(this.txtsearch);
+            this.Controls.Add(this.Search);
+            this.Controls.Add(this.time);
+            this.Controls.Add(this.date);
             this.Name = "Developer_Panel";
             this.Text = "Developer_Panel";
             this.Load += new System.EventHandler(this.Developer_Panel_Load);
@@ -168,23 +167,18 @@ namespace bugtracker
 
         }
 
-        private void lbluname_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
-        private System.Windows.Forms.Button btn_logout;
-        private System.Windows.Forms.Button btn_totester;
-        private System.Windows.Forms.Button btn_refresh;
-        private System.Windows.Forms.Label lbl_search;
-        private System.Windows.Forms.TextBox txt_search;
-        private System.Windows.Forms.Button btn_checkcode;
+        private System.Windows.Forms.Label date;
+        private System.Windows.Forms.Label time;
+        private System.Windows.Forms.Label Search;
+        private System.Windows.Forms.TextBox txtsearch;
+        private System.Windows.Forms.Button btnrefresh;
+        private System.Windows.Forms.Button btncheckcode;
+        private System.Windows.Forms.Button btnlogout;
+        private System.Windows.Forms.Button btnsendtest;
         private System.Windows.Forms.DataGridView devdgv;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label time;
-        private System.Windows.Forms.Label date1;
-        private System.Windows.Forms.Label lbluname;
+        private System.Windows.Forms.Label lblUname;
     }
 }

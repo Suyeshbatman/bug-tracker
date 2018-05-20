@@ -76,7 +76,7 @@ namespace bugtracker
                                 username = txt_uname.Text;
                                 //Admin_Panel panel = new Admin_Panel();
                                 //panel.Show();
-                                Admin_Panel panel = new Admin_Panel();
+                                Admin_M_Panel panel = new Admin_M_Panel();
                                 panel.Show();
                                 this.Hide();
                             }
@@ -110,6 +110,11 @@ namespace bugtracker
             Signup reg_form = new Signup();
             reg_form.Show();
             this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

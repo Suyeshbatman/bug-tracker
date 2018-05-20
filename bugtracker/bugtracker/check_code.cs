@@ -28,7 +28,7 @@ namespace bugtracker
             else
             {
                 Connectiondb conn = new Connectiondb();
-                string query = "UPDATE tbl_developer SET code = '" + txtcode.Text + "' WHERE project_id = '" + Developer_Panel.id + "' ";
+                string query = "UPDATE tbl_developer SET code = '" + txtcode.Text + "' WHERE project_id = '" + Developer_Panel.Id + "' ";
                 conn.manipulate(query);
                 MessageBox.Show("Code Successfully updated!!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
@@ -51,7 +51,7 @@ namespace bugtracker
 
         private void check_code_Load(object sender, EventArgs e)
         {
-            txtcode.Text = Developer_Panel.code;
+            txtcode.Text = Developer_Panel.Code;
         }
     }
 }
